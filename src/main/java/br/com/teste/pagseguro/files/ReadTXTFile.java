@@ -1,9 +1,11 @@
 package br.com.teste.pagseguro.files;
 
+import java.beans.JavaBean;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+@JavaBean
 public class ReadTXTFile {
 
 	public static ReadTXTFile readTXT(String arquivo) throws IOException {

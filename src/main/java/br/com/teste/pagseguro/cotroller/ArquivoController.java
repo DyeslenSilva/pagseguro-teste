@@ -1,6 +1,8 @@
 package br.com.teste.pagseguro.cotroller;
 
+import java.beans.JavaBean;
 import java.io.IOException;
+import java.io.Serializable;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,9 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.teste.pagseguro.service.ArquivoService;
 
+@SuppressWarnings("serial")
 @RestController
 @RequestMapping("/arquivo")
-public class ArquivoController {
+//@JavaBean
+public class ArquivoController implements Serializable{
 
 	@Autowired
 	private ArquivoService arquivoService;

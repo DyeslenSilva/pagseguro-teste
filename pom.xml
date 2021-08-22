@@ -46,11 +46,50 @@
 			<artifactId>spring-session-jdbc</artifactId>
 		</dependency>
 		
-<dependency>
-    <groupId>com.yahoofinance-api</groupId>
-    <artifactId>YahooFinanceAPI</artifactId>
-    <version>3.5.0</version>
-</dependency>
+	<dependency>
+	    <groupId>com.yahoofinance-api</groupId>
+	    <artifactId>YahooFinanceAPI</artifactId>
+	    <version>3.5.0</version>
+	</dependency>
+	
+	
+	
+		<dependency>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-core</artifactId>
+		    <version>5.5.1</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-config</artifactId>
+		  </dependency>
+		
+		
+	<dependency>
+	    <groupId>org.javassist</groupId>
+	    <artifactId>javassist</artifactId>
+	    <version>3.20.0-GA</version>
+	</dependency>
+		
+		
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-beans</artifactId>
+		    <version>5.3.9</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
+		
+	
+	<dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-web</artifactId>
+	</dependency>
+
+
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+    </dependency>
 
 
 <dependency>
