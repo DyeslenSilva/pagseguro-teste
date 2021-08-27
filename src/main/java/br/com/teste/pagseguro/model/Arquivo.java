@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,6 +19,7 @@ import lombok.NoArgsConstructor;
 @Entity(name = "arquivo")
 @AllArgsConstructor
 @NoArgsConstructor
+@Qualifier("arquivo")
 public class Arquivo  implements Serializable{
 
 	@Id

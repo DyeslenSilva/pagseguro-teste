@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import br.com.teste.pagseguro.files.ReadTXTFile;
@@ -15,9 +17,11 @@ import yahoofinance.quotes.QuotesProperty;
 import yahoofinance.quotes.stock.StockQuote;
 
 @Service
+@Component
+@Qualifier("arquivoService")
 public class ArquivoService {
 
-	@Autowired
+	//@Autowired
 	private ArquivoRepo arquivoRepo;
 
 	

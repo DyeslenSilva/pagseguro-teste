@@ -10,9 +10,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-@EnableJpaRepositories
-@ComponentScan(basePackages = {"br.com.teste.pagseguro.*"})
-@EntityScan("br.com.teste.pagseguro.*")
+//@EnableJpaRepositories
+//@ComponentScan(basePackages = {"br.com.teste.pagseguro.*"})
+//@EntityScan("br.com.teste.pagseguro.*")
 public class AppConfig extends WebSecurityConfigurerAdapter implements Serializable{
 
 /**

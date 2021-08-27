@@ -11,19 +11,19 @@
   <context:component-scan base-package="br.com.teste.pagseguro"/>
 
 
-  <bean id="arquivoService"  class="br.com.teste.pagseguro.service.ArquivoService"/>
+  <bean id="ArquivoService"  class="br.com.teste.pagseguro.service.ArquivoService"/>
 	
-  <bean id="arquivoRepo" class="br.com.teste.pagserguro.repo.ArquivoRepo" />
+  <bean id="ArquivoRepo" class="br.com.teste.pagserguro.repo.ArquivoRepo" />
 	
-  <bean id="arquivo" class="br.com.teste.pagserguro.model.Arquivo" />
+  <bean id="Arquivo" class="br.com.teste.pagserguro.model.Arquivo" />
   
 	
-  <bean id="arquivoController" class="br.com.teste.pagserguro.controller.ArquivoController" />
+  <bean id="ArquivoController" class="br.com.teste.pagserguro.controller.ArquivoController" />
 	
-	  <bean id="configJPA" class="br.com.teste.pagserguro.dataConfig.ConfigJPA" />
+	  <bean id="ConfigJPA" class="br.com.teste.pagserguro.dataConfig.ConfigJPA" />
 		
-	  <bean id="appConfig" class="br.com.teste.pagserguro.config.AppConfig" />
+	  <bean id="AppConfig" class="br.com.teste.pagserguro.config.AppConfig" />
 	
-	  <bean id="readTXTFile" class="br.com.teste.pagserguro.files.ReadTXTFile" />
+	  <bean id="ReadTXTFile" class="br.com.teste.pagserguro.files.ReadTXTFile" />
 	
 </beans>
